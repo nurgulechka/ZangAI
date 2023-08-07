@@ -11,6 +11,15 @@
 		9F0D23752A7E7ABD00FC08C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0D23742A7E7ABD00FC08C2 /* ContentView.swift */; };
 		9F0D23772A7E7ABE00FC08C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F0D23762A7E7ABE00FC08C2 /* Assets.xcassets */; };
 		9F0D237A2A7E7ABE00FC08C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F0D23792A7E7ABE00FC08C2 /* Preview Assets.xcassets */; };
+		9F0D23822A7E7AE100FC08C2 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9F0D23812A7E7AE100FC08C2 /* Alamofire */; };
+		9F0D23842A7E7B0A00FC08C2 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0D23832A7E7B0A00FC08C2 /* Section.swift */; };
+		9F0D23862A7E7B1800FC08C2 /* MainVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0D23852A7E7B1800FC08C2 /* MainVIew.swift */; };
+		9F0D23882A7E7B2700FC08C2 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0D23872A7E7B2700FC08C2 /* ChatView.swift */; };
+		9F0D238A2A7E7B3D00FC08C2 /* HCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0D23892A7E7B3D00FC08C2 /* HCard.swift */; };
+		9F0D238C2A7E7B4600FC08C2 /* VCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0D238B2A7E7B4600FC08C2 /* VCard.swift */; };
+		9F0D238E2A7E7B5800FC08C2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0D238D2A7E7B5800FC08C2 /* SettingsView.swift */; };
+		9F0D23922A7EC4CF00FC08C2 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0D23912A7EC4CF00FC08C2 /* Card.swift */; };
+		9F0D23942A7EC63100FC08C2 /* CardElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0D23932A7EC63100FC08C2 /* CardElement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,14 @@
 		9F0D23742A7E7ABD00FC08C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9F0D23762A7E7ABE00FC08C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F0D23792A7E7ABE00FC08C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F0D23832A7E7B0A00FC08C2 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		9F0D23852A7E7B1800FC08C2 /* MainVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVIew.swift; sourceTree = "<group>"; };
+		9F0D23872A7E7B2700FC08C2 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		9F0D23892A7E7B3D00FC08C2 /* HCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCard.swift; sourceTree = "<group>"; };
+		9F0D238B2A7E7B4600FC08C2 /* VCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCard.swift; sourceTree = "<group>"; };
+		9F0D238D2A7E7B5800FC08C2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		9F0D23912A7EC4CF00FC08C2 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		9F0D23932A7EC63100FC08C2 /* CardElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardElement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F0D23822A7E7AE100FC08C2 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +71,14 @@
 			children = (
 				9F0D23722A7E7ABD00FC08C2 /* ZangAIApp.swift */,
 				9F0D23742A7E7ABD00FC08C2 /* ContentView.swift */,
+				9F0D23832A7E7B0A00FC08C2 /* Section.swift */,
+				9F0D23852A7E7B1800FC08C2 /* MainVIew.swift */,
+				9F0D23872A7E7B2700FC08C2 /* ChatView.swift */,
+				9F0D23892A7E7B3D00FC08C2 /* HCard.swift */,
+				9F0D238B2A7E7B4600FC08C2 /* VCard.swift */,
+				9F0D238D2A7E7B5800FC08C2 /* SettingsView.swift */,
+				9F0D23912A7EC4CF00FC08C2 /* Card.swift */,
+				9F0D23932A7EC63100FC08C2 /* CardElement.swift */,
 				9F0D23762A7E7ABE00FC08C2 /* Assets.xcassets */,
 				9F0D23782A7E7ABE00FC08C2 /* Preview Content */,
 			);
@@ -83,6 +109,9 @@
 			dependencies = (
 			);
 			name = ZangAI;
+			packageProductDependencies = (
+				9F0D23812A7E7AE100FC08C2 /* Alamofire */,
+			);
 			productName = ZangAI;
 			productReference = 9F0D236F2A7E7ABD00FC08C2 /* ZangAI.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +140,9 @@
 				Base,
 			);
 			mainGroup = 9F0D23662A7E7ABD00FC08C2;
+			packageReferences = (
+				9F0D23802A7E7AE100FC08C2 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 9F0D23702A7E7ABD00FC08C2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +169,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F0D238A2A7E7B3D00FC08C2 /* HCard.swift in Sources */,
+				9F0D23922A7EC4CF00FC08C2 /* Card.swift in Sources */,
+				9F0D238E2A7E7B5800FC08C2 /* SettingsView.swift in Sources */,
+				9F0D23842A7E7B0A00FC08C2 /* Section.swift in Sources */,
+				9F0D238C2A7E7B4600FC08C2 /* VCard.swift in Sources */,
+				9F0D23862A7E7B1800FC08C2 /* MainVIew.swift in Sources */,
+				9F0D23882A7E7B2700FC08C2 /* ChatView.swift in Sources */,
 				9F0D23752A7E7ABD00FC08C2 /* ContentView.swift in Sources */,
+				9F0D23942A7EC63100FC08C2 /* CardElement.swift in Sources */,
 				9F0D23732A7E7ABD00FC08C2 /* ZangAIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +307,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ZangAI/Preview Content\"";
+				DEVELOPMENT_TEAM = 2JTBV7MFHK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -295,6 +336,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ZangAI/Preview Content\"";
+				DEVELOPMENT_TEAM = 2JTBV7MFHK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -337,6 +379,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9F0D23802A7E7AE100FC08C2 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9F0D23812A7E7AE100FC08C2 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F0D23802A7E7AE100FC08C2 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9F0D23672A7E7ABD00FC08C2 /* Project object */;
 }
